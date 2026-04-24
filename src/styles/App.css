@@ -1,0 +1,47 @@
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  display: block;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.card__flag {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card__body {
+  padding: 1rem;
+}
+
+.card__name {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.home__status {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.home__status--error {
+  color: red; /* ✅ fixed */
+}
