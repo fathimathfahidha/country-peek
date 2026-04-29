@@ -14,3 +14,23 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+A React application for searching and exploring country data,
+built with the RestCountries API.
+
+## Live Demo
+[https://YOUR-USERNAME.github.io/country-peek](...)
+
+## Features
+- Search countries by name with live results
+- Filter by region and sort by name or population
+- Full country detail page with languages, currencies, and borders
+- Dark and light theme toggle
+- Save countries to a persistent Favourites list
+
+## Tech Stack
+React, Vite, React Router v6, CSS Custom Properties, RestCountries API
+
+## Run Locally
+npm install
+npm run dev
